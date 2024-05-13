@@ -1,3 +1,6 @@
+* {
+    font-family: quicksand;
+}
 ul li {
     list-style: none;
     font-size: large;
@@ -11,4 +14,59 @@ ol li {
 a {
     text-decoration: none;
     color: black;
+    font-size: 20px;
+    font-family: quicksand, serif;
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: tomato;
+    font-size: 30px;
+    transition: 0.5s ease-in;
+}
+Olaitan {
+    color: brown;
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: bold;
+}
+.Olaitan:hover {
+    color: brown;
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: bold;
+}
+img {
+    width: 140px;
+    height: 120px;
+}
+#Olaitan {
+    width: 150px;
+    height: 130px;
+}
+h3, p {
+    color: red;
+    text-align: right;
+    border: 3px dotted green;
+    border-radius: 10px;
+    padding: 30px 50px;
+    margin
+}
+.One, .Two, .Three {
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+.One {
+    background-color: red;
+}
+.Two {
+    background-color: yellow;
+    visibility: hidden;
+}
+.Three {
+    background-color: blue;
 }
