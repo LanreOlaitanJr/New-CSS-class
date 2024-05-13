@@ -1,7 +1,14 @@
-li {
+ul li {
     list-style: none;
     font-size: large;
     font-style: italic;
     color: blue;
     text-align: center;
+}
+ol li {
+    font-family: poppins, serif;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
